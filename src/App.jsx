@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+import Footer from './components/Footer'
 import Navbar from './components/navbar'
 import BuyCredit from "./pages/BuyCredit"
 import Home from "./pages/Home"
@@ -14,6 +15,7 @@ const App = () => {
               <Route path='/buy' element={ <BuyCredit/> }/>
 
       </Routes>
+      <Footer/>
 
     </div>
   )
